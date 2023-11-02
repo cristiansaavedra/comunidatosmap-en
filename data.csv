@@ -1,4 +1,4 @@
-id, persona, lugar, latitud, longitud, url, icon_width, icon_height
+id, name, place, latitude, longitude, url, icon_width, icon_height
 1, Francis, "Peru", -13.8701658,-71.3029901, "https://cristiansaavedra.github.io/comunidatosmap-en/photos/IMG-20221116-WA0024.jpg", 100, 100
 2, Victor, "Egipto", 29.9772962,31.1324955, https://cristiansaavedra.github.io/comunidatosmap-en/photos/IMG-20221230-WA0004.jpg, 100, 100
 3, Yamil, "Puerto Rico", 18.4646178,-66.1172354, https://cristiansaavedra.github.io/comunidatosmap-en/photos/IMG-20221230-WA0025.jpg, 100, 50

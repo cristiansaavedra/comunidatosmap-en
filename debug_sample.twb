@@ -6,7 +6,6 @@
     <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
     <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
     <AutoCreateAndUpdateDSDPhoneLayouts />
-    <Extensions />
     <_.fcp.MarkAnimation.true...MarkAnimation />
     <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
     <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
@@ -36,10 +35,10 @@
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.11viw4v0igypxr175e6np10kzgpm' name='data.csv' table='[data#csv]' type='table'>
           <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
             <column datatype='integer' name='id' ordinal='0' />
-            <column datatype='string' name='persona' ordinal='1' />
-            <column datatype='string' name='lugar' ordinal='2' />
-            <column datatype='real' name='latitud' ordinal='3' />
-            <column datatype='real' name='longitud' ordinal='4' />
+            <column datatype='string' name='name' ordinal='1' />
+            <column datatype='string' name='place' ordinal='2' />
+            <column datatype='real' name='latitude' ordinal='3' />
+            <column datatype='real' name='longitude' ordinal='4' />
             <column datatype='string' name='url' ordinal='5' />
             <column datatype='integer' name='icon_width' ordinal='6' />
             <column datatype='integer' name='icon_height' ordinal='7' />
@@ -48,10 +47,10 @@
         <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.11viw4v0igypxr175e6np10kzgpm' name='data.csv' table='[data#csv]' type='table'>
           <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
             <column datatype='integer' name='id' ordinal='0' />
-            <column datatype='string' name='persona' ordinal='1' />
-            <column datatype='string' name='lugar' ordinal='2' />
-            <column datatype='real' name='latitud' ordinal='3' />
-            <column datatype='real' name='longitud' ordinal='4' />
+            <column datatype='string' name='name' ordinal='1' />
+            <column datatype='string' name='place' ordinal='2' />
+            <column datatype='real' name='latitude' ordinal='3' />
+            <column datatype='real' name='longitude' ordinal='4' />
             <column datatype='string' name='url' ordinal='5' />
             <column datatype='integer' name='icon_width' ordinal='6' />
             <column datatype='integer' name='icon_height' ordinal='7' />
@@ -87,11 +86,11 @@
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data.csv_CF20B71BBCDD4517B58EB0E892CC62E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>persona</remote-name>
+            <remote-name>name</remote-name>
             <remote-type>129</remote-type>
-            <local-name>[persona]</local-name>
+            <local-name>[name]</local-name>
             <parent-name>[data.csv]</parent-name>
-            <remote-alias>persona</remote-alias>
+            <remote-alias>name</remote-alias>
             <ordinal>1</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
@@ -102,11 +101,11 @@
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data.csv_CF20B71BBCDD4517B58EB0E892CC62E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>lugar</remote-name>
+            <remote-name>place</remote-name>
             <remote-type>129</remote-type>
-            <local-name>[lugar]</local-name>
+            <local-name>[place]</local-name>
             <parent-name>[data.csv]</parent-name>
-            <remote-alias>lugar</remote-alias>
+            <remote-alias>place</remote-alias>
             <ordinal>2</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
@@ -117,11 +116,11 @@
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data.csv_CF20B71BBCDD4517B58EB0E892CC62E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>latitud</remote-name>
+            <remote-name>latitude</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[latitud]</local-name>
+            <local-name>[latitude]</local-name>
             <parent-name>[data.csv]</parent-name>
-            <remote-alias>latitud</remote-alias>
+            <remote-alias>latitude</remote-alias>
             <ordinal>3</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -129,11 +128,11 @@
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data.csv_CF20B71BBCDD4517B58EB0E892CC62E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>longitud</remote-name>
+            <remote-name>longitude</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[longitud]</local-name>
+            <local-name>[longitude]</local-name>
             <parent-name>[data.csv]</parent-name>
-            <remote-alias>longitud</remote-alias>
+            <remote-alias>longitude</remote-alias>
             <ordinal>4</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
@@ -182,15 +181,15 @@
         </metadata-records>
       </connection>
       <aliases enabled='yes' />
-      <column caption='photo' datatype='string' name='[Calculation_3057099727850958848]' role='dimension' semantic-role='[URL]' type='nominal'>
+      <column caption='Photo' datatype='string' name='[Calculation_3057099727850958848]' role='dimension' semantic-role='[URL]' type='nominal'>
         <calculation class='tableau' formula='[url]' />
       </column>
       <_.fcp.ObjectModelTableType.true...column caption='data.csv' datatype='table' name='[__tableau_internal_object_id__].[data.csv_CF20B71BBCDD4517B58EB0E892CC62E4]' role='measure' type='quantitative' />
       <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
-      <column aggregation='Avg' caption='Latitud' datatype='real' name='[latitud]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
-      <column aggregation='Avg' caption='Longitud' datatype='real' name='[longitud]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
-      <column caption='Lugar' datatype='string' name='[lugar]' role='dimension' type='nominal' />
-      <column caption='Persona' datatype='string' name='[persona]' role='dimension' type='nominal' />
+      <column aggregation='Avg' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column caption='Place' datatype='string' name='[place]' role='dimension' type='nominal' />
       <column caption='Url' datatype='string' name='[url]' role='dimension' semantic-role='' type='nominal' />
       <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
       <semantic-values>
@@ -219,10 +218,10 @@
               <relation connection='textscan.11viw4v0igypxr175e6np10kzgpm' name='data.csv' table='[data#csv]' type='table'>
                 <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
                   <column datatype='integer' name='id' ordinal='0' />
-                  <column datatype='string' name='persona' ordinal='1' />
-                  <column datatype='string' name='lugar' ordinal='2' />
-                  <column datatype='real' name='latitud' ordinal='3' />
-                  <column datatype='real' name='longitud' ordinal='4' />
+                  <column datatype='string' name='name' ordinal='1' />
+                  <column datatype='string' name='place' ordinal='2' />
+                  <column datatype='real' name='latitude' ordinal='3' />
+                  <column datatype='real' name='longitude' ordinal='4' />
                   <column datatype='string' name='url' ordinal='5' />
                   <column datatype='integer' name='icon_width' ordinal='6' />
                   <column datatype='integer' name='icon_height' ordinal='7' />
@@ -249,19 +248,19 @@
             <datasource caption='data' name='federated.1a05usx0h84r2j1ghzkc21rdgtzf' />
           </datasources>
           <datasource-dependencies datasource='federated.1a05usx0h84r2j1ghzkc21rdgtzf'>
-            <column-instance column='[latitud]' derivation='Avg' name='[avg:latitud:ok]' pivot='key' type='ordinal' />
-            <column-instance column='[longitud]' derivation='Avg' name='[avg:longitud:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[latitude]' derivation='Avg' name='[avg:latitude:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[longitude]' derivation='Avg' name='[avg:longitude:ok]' pivot='key' type='ordinal' />
             <column datatype='integer' name='[icon_height]' role='measure' type='quantitative' />
             <column datatype='integer' name='[icon_width]' role='measure' type='quantitative' />
             <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
-            <column aggregation='Avg' caption='Latitud' datatype='real' name='[latitud]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
-            <column aggregation='Avg' caption='Longitud' datatype='real' name='[longitud]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
-            <column caption='Lugar' datatype='string' name='[lugar]' role='dimension' type='nominal' />
+            <column aggregation='Avg' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
             <column-instance column='[id]' derivation='None' name='[none:id:ok]' pivot='key' type='ordinal' />
-            <column-instance column='[lugar]' derivation='None' name='[none:lugar:nk]' pivot='key' type='nominal' />
-            <column-instance column='[persona]' derivation='None' name='[none:persona:nk]' pivot='key' type='nominal' />
+            <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[place]' derivation='None' name='[none:place:nk]' pivot='key' type='nominal' />
             <column-instance column='[url]' derivation='None' name='[none:url:nk]' pivot='key' type='nominal' />
-            <column caption='Persona' datatype='string' name='[persona]' role='dimension' type='nominal' />
+            <column caption='Place' datatype='string' name='[place]' role='dimension' type='nominal' />
             <column-instance column='[icon_height]' derivation='Sum' name='[sum:icon_height:ok]' pivot='key' type='ordinal' />
             <column-instance column='[icon_width]' derivation='Sum' name='[sum:icon_width:ok]' pivot='key' type='ordinal' />
             <column caption='Url' datatype='string' name='[url]' role='dimension' semantic-role='' type='nominal' />
@@ -276,10 +275,10 @@
           <style-rule element='header'>
             <format attr='width' field='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[none:url:nk]' value='780' />
             <format attr='width' field='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[none:id:ok]' value='40' />
-            <format attr='width' field='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[none:persona:nk]' value='112' />
-            <format attr='width' field='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[none:lugar:nk]' value='172' />
-            <format attr='width' field='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[avg:latitud:ok]' value='176' />
-            <format attr='width' field='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[avg:longitud:ok]' value='192' />
+            <format attr='width' field='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[none:name:nk]' value='112' />
+            <format attr='width' field='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[none:place:nk]' value='172' />
+            <format attr='width' field='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[avg:latitude:ok]' value='176' />
+            <format attr='width' field='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[avg:longitude:ok]' value='192' />
             <format attr='width' field='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[sum:icon_height:ok]' value='136' />
             <format attr='width' field='[federated.1a05usx0h84r2j1ghzkc21rdgtzf].[sum:icon_width:ok]' value='132' />
           </style-rule>
@@ -298,7 +297,7 @@
             </style>
           </pane>
         </panes>
-        <rows>([federated.1a05usx0h84r2j1ghzkc21rdgtzf].[none:id:ok] / ([federated.1a05usx0h84r2j1ghzkc21rdgtzf].[none:persona:nk] / ([federated.1a05usx0h84r2j1ghzkc21rdgtzf].[none:lugar:nk] / ([federated.1a05usx0h84r2j1ghzkc21rdgtzf].[avg:longitud:ok] / ([federated.1a05usx0h84r2j1ghzkc21rdgtzf].[avg:latitud:ok] / ([federated.1a05usx0h84r2j1ghzkc21rdgtzf].[none:url:nk] / ([federated.1a05usx0h84r2j1ghzkc21rdgtzf].[sum:icon_height:ok] / [federated.1a05usx0h84r2j1ghzkc21rdgtzf].[sum:icon_width:ok])))))))</rows>
+        <rows>([federated.1a05usx0h84r2j1ghzkc21rdgtzf].[none:id:ok] / ([federated.1a05usx0h84r2j1ghzkc21rdgtzf].[none:name:nk] / ([federated.1a05usx0h84r2j1ghzkc21rdgtzf].[none:place:nk] / ([federated.1a05usx0h84r2j1ghzkc21rdgtzf].[avg:longitude:ok] / ([federated.1a05usx0h84r2j1ghzkc21rdgtzf].[avg:latitude:ok] / ([federated.1a05usx0h84r2j1ghzkc21rdgtzf].[none:url:nk] / ([federated.1a05usx0h84r2j1ghzkc21rdgtzf].[sum:icon_height:ok] / [federated.1a05usx0h84r2j1ghzkc21rdgtzf].[sum:icon_width:ok])))))))</rows>
         <cols />
       </table>
       <simple-id uuid='{8DFA1689-F22E-406F-B9A9-37F0E5D6A34F}' />
@@ -310,21 +309,7 @@
       <size sizing-mode='automatic' />
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='32730' id='3' name='Data' show-title='false' w='99092' x='454' y='603'>
-            <zone-style>
-              <format attr='border-color' value='#000000' />
-              <format attr='border-style' value='none' />
-              <format attr='border-width' value='0' />
-              <format attr='margin' value='4' />
-            </zone-style>
-          </zone>
-          <zone forceUpdate='true' h='66064' id='7' param='[com.cristiansaavedra.datatable].[1.0.0].[https://cristiansaavedra.github.io/comunidatosmap-en/02_tableau_datatable.html]' type-v2='dashboard-object' w='99092' x='454' y='33333'>
-            <add-in add-in-id='com.cristiansaavedra.datatable' extension-url='https://cristiansaavedra.github.io/comunidatosmap-en/02_tableau_datatable.html' extension-version='1.0.0' instance-id='31CB7C6279E54FBABB2B9D5ED8EEEDAA'>
-              <instance-settings />
-              <type-settings>
-                <dashboard />
-              </type-settings>
-            </add-in>
+          <zone h='98794' id='3' name='Data' show-title='false' w='99092' x='454' y='603'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -344,24 +329,9 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='53' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98794' id='52' param='vert' type-v2='layout-flow' w='99092' x='454' y='603'>
-                <zone fixed-size='254' h='32730' id='3' is-fixed='true' name='Data' show-title='false' w='99092' x='454' y='603'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone forceUpdate='true' h='66064' id='7' param='[com.cristiansaavedra.datatable].[1.0.0].[https://cristiansaavedra.github.io/comunidatosmap-en/02_tableau_datatable.html]' type-v2='dashboard-object' w='99092' x='454' y='33333'>
-                  <add-in add-in-id='com.cristiansaavedra.datatable' extension-url='https://cristiansaavedra.github.io/comunidatosmap-en/02_tableau_datatable.html' extension-version='1.0.0' instance-id='31CB7C6279E54FBABB2B9D5ED8EEEDAA'>
-                    <instance-settings />
-                    <type-settings>
-                      <dashboard />
-                    </type-settings>
-                  </add-in>
+            <zone h='100000' id='65' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98794' id='64' param='vert' type-v2='layout-flow' w='99092' x='454' y='603'>
+                <zone fixed-size='280' h='98794' id='3' is-fixed='true' name='Data' show-title='false' w='99092' x='454' y='603'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -421,7 +391,7 @@
           <zoom type='fit-width' />
         </viewpoint>
       </viewpoints>
-      <active id='3' />
+      <active id='-1' />
       <simple-id uuid='{841D73B1-EBFD-4B19-81A7-75DDB1779FEA}' />
     </window>
   </windows>
@@ -828,33 +798,4 @@
       RU5ErkJggg==
     </thumbnail>
   </thumbnails>
-  <referenced-extensions>
-    <referenced-extension>
-      <manifest manifest-version='0.1'>
-        <dashboard-extension extension-version='1.0.0' id='com.cristiansaavedra.datatable'>
-          <default-locale>en_US</default-locale>
-          <name resource-id='name' />
-          <description>Data Table</description>
-          <author email='cristian.saavedra.desmoineaux@gmail.com' name='Cristian Saavedra Desmoineaux' organization='ComuniDatos' website='https://medium.com/@cristiansaavedra' />
-          <min-api-version>1.0</min-api-version>
-          <source-location>
-            <url>https://cristiansaavedra.github.io/comunidatosmap-en/02_tableau_datatable.html</url>
-          </source-location>
-          <icon />
-          <permissions>
-            <permission>full data</permission>
-          </permissions>
-        </dashboard-extension>
-        <resources>
-          <resource id='name'>
-            <text locale='en_US'>Data Table</text>
-            <text locale='es_ES'>Tabla de Datos</text>
-          </resource>
-        </resources>
-      </manifest>
-      <referenced-views>
-        <referenced-view instances='1' viewId='02_tableau_datatable' />
-      </referenced-views>
-    </referenced-extension>
-  </referenced-extensions>
 </workbook>
