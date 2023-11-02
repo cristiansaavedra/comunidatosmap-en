@@ -1,0 +1,9 @@
+id, persona, lugar, latitud, longitud, url, icon_width, icon_height
+1, Francis, "Peru", -13.8701658,-71.3029901, "https://cristiansaavedra.github.io/comunidatosmap-en/photos/IMG-20221116-WA0024.jpg", 100, 100
+2, Victor, "Egipto", 29.9772962,31.1324955, https://cristiansaavedra.github.io/comunidatosmap-en/photos/IMG-20221230-WA0004.jpg, 100, 100
+3, Yamil, "Puerto Rico", 18.4646178,-66.1172354, https://cristiansaavedra.github.io/comunidatosmap-en/photos/IMG-20221230-WA0025.jpg, 100, 50
+4, Pahola, "Medellin, CO", 6.2372915,-75.5915708, https://cristiansaavedra.github.io/comunidatosmap-en/photos/IMG-20230102-WA0011.jpg, 100, 100
+5, Ruy, "Atlanta", 33.761595,-84.3859444, https://cristiansaavedra.github.io/comunidatosmap-en/photos/IMG-20230125-WA0025.jpg, 100, 100
+6, Diego, "Las Vegas", 36.0929942,-115.1757617, https://cristiansaavedra.github.io/comunidatosmap-en/photos/IMG-20230509-WA0022.jpg, 100, 100
+7, Cristian, "Las Vegas", 36.112025,-115.1726056, https://cristiansaavedra.github.io/comunidatosmap-en/photos/PXL_20220518_041520686.jpg, 100, 100
+8, Cristian, "Florida", 27.8713389,-82.1824722, https://cristiansaavedra.github.io/comunidatosmap-en/photos/PXL_20221210_165911033.jpg, 100, 100
