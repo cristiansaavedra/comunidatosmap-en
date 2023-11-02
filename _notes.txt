@@ -39,6 +39,14 @@ https://cristiansaavedra.github.io/comunidatosmap-en/05_mapbox_markers_photo.htm
 https://cristiansaavedra.github.io/comunidatosmap-en/06_tableau_comunidatosmap.html
 
 
+#GitHub Extensions:
+https://github.com/cristiansaavedra/comunidatosmap-en
+https://cristiansaavedra.github.io/comunidatosmap-en/
+
+https://github.com/cristiansaavedra/TableauTREX-custom-parameter-ext
+https://cristiansaavedra.github.io/TableauTREX-custom-parameter-ext/
+
+
 #========== Extras ==========
 
 #My publications about Tableau Data Dev in Medium
@@ -47,6 +55,7 @@ https://cristiansaavedra.medium.com/list/crispubstableaudatadev-5eafcc48eb0e
 #ComuniDatos
 https://comunidatos.com/
 https://youtu.be/iBxYnvD7h1E?si=ISuWLUujvPAZR5Kh (Spanish Version)
+
 
 #Promise Async JavaScript Events
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
