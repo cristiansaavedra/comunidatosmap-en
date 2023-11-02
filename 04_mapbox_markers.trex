@@ -8,7 +8,7 @@
 		organization="ComuniDatos" website="https://medium.com/@cristiansaavedra"/>
       <min-api-version>1.0</min-api-version>
       <source-location>
-        <url>https://cristiansaavedra.github.io/comunidatosmap-en/02_mapbox_markers.html</url>
+        <url>https://cristiansaavedra.github.io/comunidatosmap-en/04_mapbox_markers.html</url>
       </source-location>
       <icon></icon>
       <context-menu>
