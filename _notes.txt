@@ -56,6 +56,17 @@ https://cristiansaavedra.medium.com/list/crispubstableaudatadev-5eafcc48eb0e
 https://comunidatos.com/
 https://youtu.be/iBxYnvD7h1E?si=ISuWLUujvPAZR5Kh (Spanish Version)
 
+#Gigi - Extension from Scratch
+https://www.youtube.com/watch?v=fdc9pd5QyeA&t=3s
+
+#Keshia - Creating a Write-Back Extension from Start to Finish
+https://www.youtube.com/watch?v=JyteK-EXbLs&t=2732s
+
+#Merlijn - Zen Master: The What, Why and How’s of Extensions for Tableau
+https://www.youtube.com/watch?v=enef77PTIFk
+
+#Developer deep dive | Dashboard extensions
+https://www.youtube.com/watch?v=goiwdW3GU8I
 
 #Promise Async JavaScript Events
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
@@ -68,6 +79,9 @@ https://docs.mapbox.com/geographic-analytics/guides/
 
 #Tableau Mapbox Extension:Mapbox Geospatial Analytics 
 https://exchange.tableau.com/products/41
+
+#Amazing Spiderman Mapbox
+https://blog.mapbox.com/the-amazing-spider-map-b2cc59a4e9e2
 
 #Community Portal
 https://tableau.github.io/extensions-api/community/

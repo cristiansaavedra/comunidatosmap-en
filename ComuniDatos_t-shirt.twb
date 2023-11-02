@@ -397,8 +397,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='52' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98794' id='51' param='vert' type-v2='layout-flow' w='99092' x='454' y='603'>
+            <zone h='100000' id='54' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98794' id='53' param='vert' type-v2='layout-flow' w='99092' x='454' y='603'>
                 <zone forceUpdate='true' h='98794' id='5' param='[com.cristiansaavedra.helloworld].[1.0.0].[https://cristiansaavedra.github.io/comunidatosmap-en/01_tableau_helloworld.html]' type-v2='dashboard-object' w='99092' x='454' y='603'>
                   <add-in add-in-id='com.cristiansaavedra.helloworld' extension-url='https://cristiansaavedra.github.io/comunidatosmap-en/01_tableau_helloworld.html' extension-version='1.0.0' instance-id='65A13CC5BB15464B99CE66E707915C82'>
                     <instance-settings />
@@ -466,8 +466,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='47' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98794' id='46' param='vert' type-v2='layout-flow' w='99092' x='454' y='603'>
+            <zone h='100000' id='49' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98794' id='48' param='vert' type-v2='layout-flow' w='99092' x='454' y='603'>
                 <zone fixed-size='254' h='32730' id='3' is-fixed='true' name='Data' show-title='false' w='99092' x='454' y='603'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -536,8 +536,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='44' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98794' id='43' param='vert' type-v2='layout-flow' w='99092' x='454' y='603'>
+            <zone h='100000' id='46' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98794' id='45' param='vert' type-v2='layout-flow' w='99092' x='454' y='603'>
                 <zone forceUpdate='true' h='98794' id='3' param='[com.cristiansaavedra.mapa01].[1.0.0].[https://cristiansaavedra.github.io/comunidatosmap-en/03_mapbox_mapaonly.html]' type-v2='dashboard-object' w='99092' x='454' y='603'>
                   <add-in add-in-id='com.cristiansaavedra.mapa01' extension-url='https://cristiansaavedra.github.io/comunidatosmap-en/03_mapbox_mapaonly.html' extension-version='1.0.0' instance-id='E32CBB0CA4A445FB88C88AA9F0EC6DE8'>
                     <instance-settings />
@@ -597,8 +597,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='40' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98794' id='39' param='vert' type-v2='layout-flow' w='99092' x='454' y='603'>
+            <zone h='100000' id='42' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98794' id='41' param='vert' type-v2='layout-flow' w='99092' x='454' y='603'>
                 <zone forceUpdate='true' h='98794' id='3' param='[com.cristiansaavedra.mapa02].[1.0.0].[https://cristiansaavedra.github.io/comunidatosmap-en/04_mapbox_markers.html]' type-v2='dashboard-object' w='99092' x='454' y='603'>
                   <add-in add-in-id='com.cristiansaavedra.mapa02' extension-url='https://cristiansaavedra.github.io/comunidatosmap-en/04_mapbox_markers.html' extension-version='1.0.0' instance-id='D419D1270BAC4B63839DC8EF84CCFE2E'>
                     <instance-settings />
@@ -658,8 +658,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='38' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98794' id='37' param='vert' type-v2='layout-flow' w='99092' x='454' y='603'>
+            <zone h='100000' id='40' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98794' id='39' param='vert' type-v2='layout-flow' w='99092' x='454' y='603'>
                 <zone forceUpdate='true' h='98794' id='5' param='[com.cristiansaavedra.mapa03].[1.0.0].[https://cristiansaavedra.github.io/comunidatosmap/03_mapbox_markers_photo.html]' type-v2='dashboard-object' w='99092' x='454' y='603'>
                   <add-in add-in-id='com.cristiansaavedra.mapa03' extension-url='https://cristiansaavedra.github.io/comunidatosmap/03_mapbox_markers_photo.html' extension-version='1.0.0' instance-id='4D149FA671CA4E0FBA0A4EA430E11656'>
                     <instance-settings />
@@ -714,8 +714,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='37' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98794' id='36' param='vert' type-v2='layout-flow' w='99092' x='454' y='603'>
+            <zone h='100000' id='39' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98794' id='38' param='vert' type-v2='layout-flow' w='99092' x='454' y='603'>
                 <zone forceUpdate='true' h='100000' id='6' param='[com.cristiansaavedra.finalmap].[1.0.0].[https://cristiansaavedra.github.io/comunidatosmap-en/06_tableau_comunidatosmap.html]' type-v2='dashboard-object' w='100000' x='0' y='0'>
                   <add-in add-in-id='com.cristiansaavedra.finalmap' extension-url='https://cristiansaavedra.github.io/comunidatosmap-en/06_tableau_comunidatosmap.html' extension-version='1.0.0' instance-id='988C81A8521A467E953E29FB05DFA6D4'>
                     <instance-settings />
@@ -772,8 +772,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='98' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98794' id='97' param='vert' type-v2='layout-flow' w='99092' x='454' y='603'>
+            <zone h='100000' id='100' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98794' id='99' param='vert' type-v2='layout-flow' w='99092' x='454' y='603'>
                 <zone fixed-size='280' h='98794' id='3' is-fixed='true' name='Mapa' show-title='false' w='99092' x='454' y='603'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
