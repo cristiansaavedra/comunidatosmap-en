@@ -5,7 +5,10 @@ Material for Data Dev Day Fall 2023 (Nov 2nd, 2023)
 
 https://www.tableau.com/learn/webinars/datadev-day-2023-11-02
 
+This demo is to show how to create Tableau Extension using Mapbox and dynamic photos from a Tableau Data Source
+The idea was born from our Community ComuniDatos where we want to show a map with each person who used our t-shirt and took a photo in any place in the world.
 
+![alt text](mapbox_photos_demo.png) 
 
 
 # Tableau Developer Program
