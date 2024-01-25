@@ -19,7 +19,7 @@ tableau.extensions.initializeAsync().then(() => {
 			console.log("rows",rows);
 			
 			
-			mapboxgl.accessToken = 'pk.eyJ1IjoiY3Jpc3RpYW5zYWF2ZWRyYSIsImEiOiJjbG14Mm04NGIwdmR2MnF0MzRndzkzNmlkIn0.fl1FM6OB6np8dtbMLnxTiA';
+			mapboxgl.accessToken = 'pk.eyJ1IjoiY3Jpc3RpYW5zYWF2ZWRyYSIsImEiOiJjbG9oZ2psbmQwODN2MnFsbWtya3FzejJkIn0.IUSmJonXoWHYYIso_XRitw';
 
 			const mapa = new mapboxgl.Map({
 				container: 'map',
