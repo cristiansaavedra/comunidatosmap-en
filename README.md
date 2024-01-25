@@ -3,6 +3,7 @@ Tableau Extension with Mapbox (English) - ComuniDatos T-shirts
 
 Material for Data Dev Day Fall 2023 (Nov 2nd, 2023)
 
+https://www.tableau.com/events/datadev-day-november-2023-demand#content-container-2
 https://www.tableau.com/learn/webinars/datadev-day-2023-11-02
 
 This demo is to show how to create Tableau Extension using Mapbox and dynamic photos from a Tableau Data Source
